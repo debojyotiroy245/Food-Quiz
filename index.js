@@ -115,17 +115,6 @@ function currentScore() {
   console.log(chalk.hex('#ffff33')('Your score: ', score))
   console.log(chalk.hex('#b300b3')('------------------------'))
 }
-// function finalScore(){
-//   console.log('Congrats you scored: ',score, ' at the end of level - ',levelCounter)
-//   if(score<=questions.length && score>=questions.length - 1.5){
-//     console.log('You are highscorer.....take a screenshot and send it to me, so that I could add it in the highscorer section')
-//     console.log('Thank you!!!')
-//   }
-//   else{
-//     console.log('You played well.....')
-//     console.log('Thank you!!!')
-//   }
-// }
 
 //chec if the user qualifies to nxt level
 function nextLevel() {
@@ -157,5 +146,3 @@ function loop() {
 }
 startGame()
 loop()
-
-// finalScore(score)
