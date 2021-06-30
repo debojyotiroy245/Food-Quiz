@@ -5,39 +5,39 @@ const chalk = require('chalk') //this library is used to beautify the ouput
 //this list contains all the questions, options and answers
 var allQuestions = [questionsLevelOne = [{
       question: ' What type of pastry are profiteroles made from? ',
-      option: ['a. ', 'b. ', 'c. Choux pastry', 'd. '],
+      option: ['a. Mushroom', 'b. Garlic', 'c. Choux pastry', 'd. Veal'],
       answer: 'c'
     },
     {
       question: ' What is the main flavour of aioli? ',
-      option: ['a. ', 'b. Garlic', 'c. ', 'd. '],
+      option: ['a. Veal', 'b. Garlic', 'c. Mushroom', 'd. Choux pastry'],
       answer: 'b'
     },
     {
       question: ' Which vegetable can be oyster, chestnut or shitaki? ',
-      option: ['a. Mushroom', 'b. ', 'c. ', 'd. '],
+      option: ['a. Mushroom', 'b. Veal', 'c. Choux pastry', 'd. Garlic'],
       answer: 'a'
     },
     {
       question: ' What is wiener schnitzel? ',
-      option: ['a. ', 'b. ', 'c. ', 'd. Veal'],
+      option: ['a. Choux pastry', 'b. Garlic', 'c. Mushroom', 'd. Veal'],
       answer: 'd'
     },
     {
       question: ' How is steak tartare cooked? ',
-      option: ['a. ', 'b. ', 'c. ', 'd. It’s served raw'],
+      option: ['a. With olive oil', 'b. Without oil', 'c. With garlic', 'd. It’s served raw'],
       answer: 'd'
     }
   ],
 
   questionsLevelTwo = [{
       question: ' What type of pastry are profiteroles made from? ',
-      option: ['a. ', 'b. ', 'c. Choux pastry', 'd. '],
+      option: ['a. Mushroom', 'b. Garlic', 'c. Choux pastry', 'd. Veal'],
       answer: 'c'
     },
     {
       question: ' What is the main flavour of aioli? ',
-      option: ['a. ', 'b. Garlic', 'c. ', 'd. '],
+      option: ['a. Veal', 'b. Garlic', 'c. Mushroom', 'd. Onion'],
       answer: 'b'
     }
   ]
