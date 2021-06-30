@@ -118,7 +118,6 @@ function currentScore() {
 
 //chec if the user qualifies to nxt level
 function nextLevel() {
-
   if (score <= 5 && score >= 3) {
     levelCounter = levelCounter + 1
     console.log('Congrats you made it to level: ', levelCounter)
@@ -144,5 +143,6 @@ function loop() {
     console.log('Thank you!!')
   }
 }
+
 startGame()
 loop()
